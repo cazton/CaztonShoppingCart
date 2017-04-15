@@ -1,0 +1,46 @@
+.navbar-nav li > a:hover,
+.navbar-nav li > a:focus {
+    background-color: inherit;
+    outline: none; }
+.navbar-nav li > a.nav-text {
+    color: #fff; }
+
+.top-nav {
+    background-color: #fff;
+    border-bottom: black 2px solid;
+    height: 65px;
+    padding-top: 10px; }
+.top-nav .top-nav-text {
+    color: white;
+    font-size: 24px; }
+.top-nav .top-nav-text span {
+    text-decoration: underline; }
+.top-nav > .navbar-header .navbar-brand {
+    padding: 0 15px;
+    height: 35px; }
+.top-nav .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.top-nav .shopping-cart-wrapper {
+    padding-top: 10px; }
+.top-nav .shopping-cart-wrapper:hover {
+    cursor: pointer;
+}
+
+.top-nav .icon-badge-text {
+    color: #fff; }
+    .top-nav .icon-badge.md-stack {
+        vertical-align: inherit;
+        top: -8px;
+        left: 18px;
+        z-index: 10;
+        color: blue;
+    }
+    .top-nav .icon-badge .icon-badge-text {
+        font-size: 10px;
+        top: -5px;
+    }
+.top-nav .shopping-cart-icon {
+    font-size: 36px;
+}

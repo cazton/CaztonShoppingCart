@@ -1,0 +1,80 @@
+/* General */
+.body-content {
+    margin-top: 80px; }
+
+.text-underline {
+    text-decoration: underline; }
+
+.no-decoration {
+    text-decoration: none !important; }
+
+/* General Font */
+
+/* General Format */
+.padding-none-left {
+    padding-left: 0; }
+
+.padding-5{
+    padding: 5px; }
+
+.padding-5-h{
+    padding-left: 5px;
+    padding-right: 5px; }
+
+.padding-5-l{
+    padding-left: 5px; }
+
+.margin-0-b {
+    margin-bottom: 0; }
+
+/* Material Icons */
+.material-icons.md-12 {
+    font-size: 12px;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons-wrapper {
+    display: inline-flex !important;
+    vertical-align: middle;
+    align-items: center;
+}
+
+    .material-icons-wrapper.material-icons-left > i.material-icons {
+        padding-right: 5px;
+    }
+
+    .material-icons-wrapper.material-icons-right > i.material-icons {
+        padding-left: 5px;
+    }
+
+.md-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+    .md-stack > .md-stack-1x,
+    .md-stack > .md-stack-2x {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .md-stack > .md-stack-1x {
+        line-height: inherit;
+    }
+
+    .md-stack > .md-inverse {
+        color: #fff;
+    }
