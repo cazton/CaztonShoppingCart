@@ -37,7 +37,7 @@ namespace WebApplicationBasic
 
             // Add framework services.
             services.Configure<DocumentDbConfig>(Configuration.GetSection("DocumentDb"));
-            https://andrewlock.net/reloading-strongly-typed-options-in-asp-net-core-1-1-0/
+            // https://andrewlock.net/reloading-strongly-typed-options-in-asp-net-core-1-1-0/
             services.AddScoped(cfg => cfg.GetService<IOptionsSnapshot<DocumentDbConfig>>().Value);
 
             services.AddMvc();
